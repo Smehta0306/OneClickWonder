@@ -1,0 +1,24 @@
+{
+  "name": "one-click-wonder",
+  "version": "1.0.0",
+  "description": "A web app to generate PowerPoint presentations from GPT-3 text.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "web",
+    "app",
+    "powerpoint",
+    "gpt-3"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "openai": "^3.0.0",
+    "pptxgenjs": "^3.12.0"
+  }
+}
